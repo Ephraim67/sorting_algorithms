@@ -34,16 +34,3 @@ void bubble_sort(int *array, size_t size)
         }
     }
 }
-
-int main(void)
-{
-    int array[] = {84, 27, 63, 18, 50, 72, 91, 33, 46, 12, 65, 38, 54, 79, 23, 96, 7, 42, 58, 21, 95, 30, 69, 14, 82, 36, 60, 25, 87, 3, 68, 49, 17, 74, 9, 45, 78, 15, 56, 39, 81, 6, 71, 20, 92, 48, 1, 26, 99};
-    size_t n = sizeof(array) / sizeof(array[0]);
-
-    print_array(array, n);
-    printf("\n");
-    bubble_sort(array, n);
-    printf("\n");
-    print_array(array, n);
-    return (0);
-}
